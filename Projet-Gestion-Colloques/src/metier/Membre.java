@@ -39,6 +39,10 @@ public  class Membre  extends Personne
 
 	
 	//Operations
+
+    public Membre(String nom, String prenom, String courriel, String institution, String login, String mp) {
+        super(nom, prenom, courriel, institution, login, mp);
+    }
 		
 		
 	

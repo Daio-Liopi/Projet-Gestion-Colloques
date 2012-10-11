@@ -17,8 +17,9 @@ import java.util.*;
 public  class Personne  
 { 
 	//Inners Classifiers
-	
-
+	public static final int _PERSONNE = 0;
+        public static final int _PRESIDENT = 1;
+public static final int _MEMBRE = 2;
 	//Attributes
 		
 		
@@ -47,6 +48,15 @@ public  class Personne
 
 	
 	//Operations
+
+    public Personne(String nom, String prenom, String courriel, String institution, String login, String mp) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.courriel = courriel;
+        this.institution = institution;
+        this.login = login;
+        this.mp = mp;
+    }
 		
 		
 	

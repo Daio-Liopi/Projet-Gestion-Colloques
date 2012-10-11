@@ -9,11 +9,6 @@ package metier;
 **************************************************************************/
 
 
-
-import java.util.*;
-
-
-
 public  class colloque  
 { 
 
@@ -31,12 +26,11 @@ public  class colloque
         Membre fairePartieDuComite[];
 
                 
-    public colloque(String titreC, String descriptionsC, String statutC, Motcles[] theme, President preside) {
+    public colloque(String titreC, String descriptionsC, String statutC,int idC) {
+        this.idC = idC;
         this.titreC = titreC;
         this.descriptionsC = descriptionsC;
         this.statutC = statutC;
-        this.theme = theme;
-        this.preside = preside;
     }
     
     public int getIdC() {

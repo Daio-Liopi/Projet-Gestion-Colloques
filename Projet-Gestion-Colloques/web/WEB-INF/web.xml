@@ -13,8 +13,20 @@
         <jsp-file>/jsp/connexionAppli.jsp</jsp-file>
     </servlet>
     <servlet>
-        <servlet-name>connexionManager</servlet-name>
-        <servlet-class>manager.connexionManager</servlet-class>
+        <servlet-name>connexion</servlet-name>
+        <servlet-class>manager.connexion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AccueilInvite</servlet-name>
+        <jsp-file>/jsp/AccueilInvite.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>AccueilMembre</servlet-name>
+        <jsp-file>/jsp/AccueilMembre.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>AccueilPresident</servlet-name>
+        <jsp-file>/jsp/AccueilPresident.jsp</jsp-file>
     </servlet>
     <servlet-mapping>
         <servlet-name>ThemeColloque</servlet-name>
@@ -25,8 +37,20 @@
         <url-pattern>/connexionAppli</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>connexionManager</servlet-name>
-        <url-pattern>/connexionManager</url-pattern>
+        <servlet-name>AccueilInvite</servlet-name>
+        <url-pattern>/AccueilInvite</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AccueilMembre</servlet-name>
+        <url-pattern>/AccueilMembre</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AccueilPresident</servlet-name>
+        <url-pattern>/AccueilPresident</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>connexion</servlet-name>
+        <url-pattern>/connexion</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

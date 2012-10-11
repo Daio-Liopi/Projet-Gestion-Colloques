@@ -16,6 +16,8 @@ import java.util.*;
 
 public  class President  extends Personne 
 { 
+
+    
 	//Inners Classifiers
 	
 
@@ -31,7 +33,9 @@ public  class President  extends Personne
 
 	
 	//Operations
-		
+		public President(String nom, String prenom, String courriel, String institution, String login, String mp) {
+        super(nom, prenom, courriel, institution, login, mp);
+    }
 		
 	
 	

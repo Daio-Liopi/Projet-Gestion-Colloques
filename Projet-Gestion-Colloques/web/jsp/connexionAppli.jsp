@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Authentification utilisateur</title>
     </head>
     <body>
         <h1>Connexion</h1>
@@ -20,7 +20,7 @@
 			String password = (String)request.getAttribute("password");
         %>
         
-        <form id="form1" name="form1" method="post" action="connexionManager">
+        <form id="form1" name="form1" method="post" action="connexion">
             <label for="login">Identifiant</label>
             <input type="text" name="login" id="login" value="<%= (login==null) ? "" : login %>"/>
             <br />

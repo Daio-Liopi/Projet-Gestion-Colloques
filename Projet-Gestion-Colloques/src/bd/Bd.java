@@ -16,7 +16,7 @@ import java.util.List;
 public class Bd
 {
 	/*----- Données -----*/
-	private Connection cx;
+	protected Connection cx;
 
 	/*----- Données de connexion -----*/
         private String url ="jdbc:oracle:thin:@80.13.174.165:1521/xe";
