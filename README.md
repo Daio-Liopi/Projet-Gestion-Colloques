@@ -1,5 +1,4 @@
 Projet-Gestion-Colloques
 ========================
-test
-fred
-steph
+
+Projet à rendre pour le mois de Novembre
