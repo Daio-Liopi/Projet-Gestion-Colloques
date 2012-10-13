@@ -21,6 +21,8 @@ public class connexionManager {
         
         // Commentaire de fréd
         // nouveau commentaire de fréd
+        // nouvelle ligne
+        
         return result;
     }
 
