@@ -19,7 +19,7 @@ public class connexionManager {
         PersonneBD lConnexion = new PersonneBD();
         result = lConnexion.getProfil(Login, Password);
         
-        
+        // Commentaire de fréd
         return result;
     }
 
