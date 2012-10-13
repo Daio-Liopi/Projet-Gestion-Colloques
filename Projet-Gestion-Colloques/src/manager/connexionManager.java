@@ -20,6 +20,7 @@ public class connexionManager {
         result = lConnexion.getProfil(Login, Password);
         
         // Commentaire de fréd
+        // nouveau commentaire de fréd
         return result;
     }
 
