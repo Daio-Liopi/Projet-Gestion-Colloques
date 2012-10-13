@@ -79,7 +79,7 @@ public class connexion extends HttpServlet {
 
                     //vérification des identifiants dans la base
 
-                    Personne User = ConnexionManager.getUserByLogin(Login, Password);
+                    Personne User = connexionManager.getUserByLogin(Login, Password);
 
 
                     //si NOK retour a connexionAppli
